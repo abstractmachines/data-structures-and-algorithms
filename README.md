@@ -11,6 +11,8 @@
 
 - [ ] Write a BFS, cold.
 
+- [ ] Permute a string.
+
 - [x] Count uniques: use a hash table in C++ (unordered multiset) and use count()
 
 - [x] Count odd occurrences: [Code for Hash tables to count occurrences in C++](sorting-and-counting/count-odd-occurrences.cpp)
@@ -47,6 +49,12 @@ where all integers: { Z | 0 < a,b,c,d < 1000 }
 # Using the C++ Standard Library for algorithms
 
 A practical guide.
+
+- [Here is a link to the C++ stdlib](http://en.cppreference.com)
+
+
+- [C++ stdlib Algorithms](http://en.cppreference.com/w/cpp/algorithm)
+
 
 ## The C++ Standard Library and the STL
 The C++ Standard Library, or stdlib, is based on the STL's (or Standard Template Library) conventions. The STL
