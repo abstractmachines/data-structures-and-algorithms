@@ -1,9 +1,11 @@
 /*
-Write a function that takes an array and size as a parameter.
-The array contains non-negative numbers. Every number in the array appears
- an even number of times, except for one number that appears an odd number
-  of times. The function should return the number that appears an odd number
-	of times.
+
+Problem statement:
+- Write a function that takes an array and size as a parameter.
+- The array contains non-negative numbers.
+- Every number in the array appears an even number of times, except for one
+ number that appears an odd number of times.
+- The function should return the number that appears an odd number of times.
 */
 
 /********  Amanda's notes: ***********
@@ -17,21 +19,12 @@ Modulus operation
 From interview: writing/thinking on the spot:
 Option 1: Counting Sort algorithm option:
     Probably more efficient than a hashtable for large data ranges.
-    // second data structure which stores occurrences as data, and range in index. Range: integers, 0-9 978
-    // 0-9:
-
-    std::vector<int> range;
-
-    // 0 1 2 3 4 5 6 7 8 9 index
-    // 0 2 3 0 2 0 0 0 0 0 data
 
 Option 2: hash structure to count occurrences in buckets.
 Less efficient for extremely large data sizes
 
-Interviewer @ Amazon (Lachlan) said, go with this hash structure for now...
+Going with the hash structure for now...
 */
-
-// compile with C++11
 
 #include <iostream>
 #include <array>

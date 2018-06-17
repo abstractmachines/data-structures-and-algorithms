@@ -7,6 +7,13 @@
 - Spidermonkey
 
 ## TO DO LIST:
+ A startlingly high percentage of interview questions reduce to breadth-first search or the use of a hash table to count uniques. You need to be able to write a BFS cold, and you need to understand how a hash table is implemented.
+
+- [ ] Write a BFS, cold.
+
+- [x] Count uniques: use a hash table in C++ (unordered multiset) and use count()
+
+- [x] Count odd occurrences: [Code for Hash tables to count occurrences in C++](sorting-and-counting/count-odd-occurrences.cpp)
 
 - [ ]  implement a wait on multiple events (Semaphores, deadlocks, threading? sleep, wait)
 
@@ -20,8 +27,8 @@ https://www.quora.com/Do-most-modern-OS-have-deadlock-prevention-mechanisms
 
 - [ ] Determine a win condition in connect 4
 
-- [ ]  Given an array of length n and some integer k, return the k largest values in array n.
-
+- [x]  Given an array of length n and some integer k, return the k largest values in array n.
+[Link](./arrays/kth-largest-elements.cpp)
 
 - [ ] Find cardinality of the intersection of two sorted sets (arrays)
 *Also known as "for two distinct, sorted arrays, find how many common elements there are."*
