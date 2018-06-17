@@ -21,7 +21,35 @@ Finally, std::exception is subclassed by std::bad_datatype.
 It may be ok to throw a std::exception std::runtime_error here if improper
 input is entered.
 
+SEE ALSO:
+int k = getchar() - '0'; // convert ascii code to char int (range -127 to 127)
+- from : kth-largest-elements.cpp
 
+EXPECTED:
+$ g++ -std=c++11 largest-difference.cpp
+$ ./a.out 22 33 18392 11
+
+You entered 4 elements.
+
+
+Unsorted vector:
+22
+33
+18392
+11
+
+
+Sorted vector:
+11
+22
+33
+18392
+
+
+ vector size is : 4 elements!
+smol: 11
+largest: 18392
+Difference: 18381
 */
 
 
@@ -83,7 +111,7 @@ int main(int argc, char * argv[])
 
 	std::cout<<"\n\nYou entered " << argc-1 << " elements.\n";
 
-	for(int i = 1;i<argc;++i)
+	for(int i = 1; i<argc; ++i)
 	{
 		int temp = std::atoi(argv[i]);
 		v.push_back(temp);
