@@ -11,7 +11,7 @@
 
 - [ ] Write a BFS, cold.
 
-- [ ] Permute a string.
+- [ ] Permute a string. [Here's how.](https://leetcode.com/problems/permutation-in-string/solution/)
 
 - [ ] [TripleByte: How To Pass A Programming Interview](https://triplebyte.com/blog/how-to-pass-a-programming-interview)
 
