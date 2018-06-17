@@ -1,5 +1,5 @@
 /*
-AMAZON 1: Write a function that takes an array and size as a parameter.
+Write a function that takes an array and size as a parameter.
 The array contains non-negative numbers. Every number in the array appears
  an even number of times, except for one number that appears an odd number
   of times. The function should return the number that appears an odd number
