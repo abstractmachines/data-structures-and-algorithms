@@ -13,6 +13,8 @@
 
 - [ ] Permute a string.
 
+- [ ] [TripleByte: How To Pass A Programming Interview](https://triplebyte.com/blog/how-to-pass-a-programming-interview)
+
 - [x] Count uniques: use a hash table in C++ (unordered multiset) and use count()
 
 - [x] Count odd occurrences: [Code for Hash tables to count occurrences in C++](sorting-and-counting/count-odd-occurrences.cpp)
