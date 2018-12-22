@@ -1,16 +1,5 @@
-# Recursion
 
-Recursion can often be used instead of iteration to solve problems with more
-concise and readable syntax. It is not often the most performant design
-decision.
-
-Here's a typical HackerRank recursion problem. You can recognize recursion problems by [considering how the stack works with recursion](ftp://ftp.gnu.org/old-gnu/Manuals/gdb/html_chapter/gdb_7.html) - namely, that `calling a function` will `push()` a stack frame onto the call stack; `returning from a function` will `pop()` that stack frame off of the call stack - and return the `PC program counter` back to the `calling context`.
-
-Recursion problems are often REVERSING something.
-
-> Pro tip: **REVERSE MEANS RECURSE.**
-
-## Sample Problem: "Print a Linear Linked List in reverse"
+# Recursion Problem: "Print a Linear Linked List in reverse"
 > Complete the reversePrint function below.
 > HackerRank: https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem
 
@@ -26,7 +15,7 @@ Recursion problems are often REVERSING something.
  */
 ```
 
-### Brute Force Solution: Iteration
+## Brute Force Solution: Iteration
  - (1). iterate through an entire linked list ONCE, e.g. `O(n)`;
  - (2). During the iteration, store each index/data in a data structure (such as an array);
  - (3). Iterate backwards through that data structure, e.g. `O(k)`.
@@ -37,7 +26,7 @@ Recursion problems are often REVERSING something.
 
 > ***Spatial Tradeoffs and considerations:*** Having the data stored in multiple places in memory is not great for spatial considerations, as that can take up about TWICE the amount of memory it should, and we shouldn't rely on [`locality of reference`](https://en.wikipedia.org/wiki/Locality_of_reference).
 
-### More Elegant Solution: Recursion
+## More Elegant Solution: Recursion
 
 > ***Temporal Tradeoffs and considerations:*** TODO
 
